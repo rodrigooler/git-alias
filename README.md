@@ -15,6 +15,6 @@
     pl = pull origin master
     ps = push origin master
 [user]
-		email = Your email
-		name = Your name
+    email = Your email
+    name = Your name
 ````
