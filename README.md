@@ -1,20 +1,42 @@
 # git-alias
 
 ````text
-[alias]
-    lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
-    lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
-    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    i = init
-    rao = remote add origin 
-    co = checkout
-    ec = config --global -e
-    cob = checkout -b
-    cm = !git add -A && git commit -m
-    st = status
-    pl = pull origin master
-    ps = push origin master
 [user]
-    email = Your email
-    name = Your name
+	name = Rodrigo Oler
+	email = roodrigoprogrammer@gmail.com
+
+[color]
+	diff = auto
+	grep = auto
+	interactive = auto
+	status = auto
+	branch = auto
+	status = auto
+
+[core]
+	editor = mate -w
+
+[alias]
+	br = branch
+	ci = commit
+	cm = !git add -A && git commit -m
+	co = checkout
+	cob = checkout -b
+	ec = config --global -e
+	df = diff
+	i = init
+	lg = log -pgit ps
+	lg1 = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lg2 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	lg3 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+	pom = pull origin master
+	ps = push
+	pl = pull
+ 	rao = remote add origin
+ 	plm = pull origin master
+ 	psm = push origin master
+	psb = push origin
+	plb = pull origin
+	st = status
+
 ````
