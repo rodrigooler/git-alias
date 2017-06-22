@@ -2,8 +2,8 @@
 
 ````text
 [user]
-	name = Rodrigo Oler
-	email = roodrigoprogrammer@gmail.com
+	name = YOUR NAME
+	email = YOUR EMAIL
 
 [color]
 	diff = auto
@@ -15,6 +15,9 @@
 
 [core]
 	editor = mate -w
+
+[help]
+	autocorrect = 1
 
 [alias]
 	br = branch
@@ -38,5 +41,4 @@
 	psb = push origin
 	plb = pull origin
 	st = status
-
 ````
