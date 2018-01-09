@@ -29,7 +29,7 @@
 	status = auto
 
 [core]
-	editor = mate -w
+	editor = vim -w
 
 [help]
 	autocorrect = 1
