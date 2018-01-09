@@ -32,16 +32,15 @@ Personal git configuration used in day-to-day projects to make the developer's l
 	grep = auto
 	interactive = auto
 	status = auto
-	status = auto
 
 [core]
-	editor = mate -w
+	editor = vim -w
 
 [help]
 	autocorrect = 1
 
 [user]
-	name = YOUR NAME
-	email = YOUR EMAIL
+	name = "PUT YOUR NAME HERE"
+	email = "PUT YOUR EMAIL HERE"
 
 ````
