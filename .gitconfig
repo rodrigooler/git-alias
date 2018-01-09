@@ -27,7 +27,6 @@
 	grep = auto
 	interactive = auto
 	status = auto
-	status = auto
 
 [core]
 	editor = mate -w
@@ -36,6 +35,6 @@
 	autocorrect = 1
 
 [user]
-	name = YOUR NAME
-	email = YOUR EMAIL
+	name = "PUT YOU EMAIL HERE"
+	email = "PUT YOUR EMAIL HERE"
 
