@@ -20,6 +20,7 @@
  	plm = pull origin master
  	psm = push origin master
  	rao = remote add origin
+	see = diff-tree --no-commit-id --name-only -r 
 
 [color]
 	branch = auto
