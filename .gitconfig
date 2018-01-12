@@ -22,7 +22,7 @@
  	rao = remote add origin
 	see = diff-tree --no-commit-id --name-only -r 
 	rollback = revert
-	ls = git config --get-regexp alias
+	ls = config --get-regexp alias
 
 [color]
 	branch = auto
