@@ -25,6 +25,8 @@ Personal git configuration used in day-to-day projects to make the developer's l
  	plm = pull origin master
  	psm = push origin master
  	rao = remote add origin
+	see = diff-tree --no-commit-id --name-only -r "<commit hash here!>"
+	rollback = revert "<commit hash here!>"
 
 [color]
 	branch = auto
@@ -32,16 +34,15 @@ Personal git configuration used in day-to-day projects to make the developer's l
 	grep = auto
 	interactive = auto
 	status = auto
-	status = auto
 
 [core]
-	editor = mate -w
+	editor = vim -w
 
 [help]
 	autocorrect = 1
 
 [user]
-	name = YOUR NAME
-	email = YOUR EMAIL
+	name = "PUT YOUR NAME HERE"
+	email = "PUT YOUR EMAIL HERE"
 
 ````

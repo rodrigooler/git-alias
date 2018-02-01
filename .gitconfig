@@ -20,6 +20,9 @@
  	plm = pull origin master
  	psm = push origin master
  	rao = remote add origin
+	see = diff-tree --no-commit-id --name-only -r 
+	rollback = revert
+	ls = config --get-regexp alias
 
 [color]
 	branch = auto
@@ -27,15 +30,14 @@
 	grep = auto
 	interactive = auto
 	status = auto
-	status = auto
 
 [core]
-	editor = mate -w
+	editor = vim -w
 
 [help]
 	autocorrect = 1
 
 [user]
-	name = YOUR NAME
-	email = YOUR EMAIL
+	name = "PUT YOU EMAIL HERE"
+	email = "PUT YOUR EMAIL HERE"
 
